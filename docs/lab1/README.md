@@ -1,6 +1,8 @@
 Lab 1
 ==================
 
+**Slides available [here](slides.pdf)**.
+
 The goal for this lab is to get you introduced with ROS.
 
 For this lab we are going to work with [stage](http://rtv.github.io/Stage/) simulator.
