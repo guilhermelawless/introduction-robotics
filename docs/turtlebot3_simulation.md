@@ -1,6 +1,6 @@
 # Turtlebot 3 Simulation
 
-This guide is based on the following tutorial for Turtlebot 3: http://emanual.robotis.com/docs/en/platform/turtlebot3/overview/ . If you want to explore more examples with this particular robot, that is the website to go to.
+This guide is based on this [tutorial](http://emanual.robotis.com/docs/en/platform/turtlebot3/overview/) for Turtlebot 3. If you want to explore more examples with this particular robot, that is the website to go to.
 
 ## Pre-requisites
 
@@ -74,6 +74,6 @@ For this part we will need to install [Gazebo](http://gazebosim.org/).
 
     Play around! Disable the Camera if your computer gets too slow. It is normal due to Gazebo.
 
-9. You can now explore applications following this guide: http://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#virtual-slam-with-turtlebot3
+9. You can now explore applications following this [guide](http://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#virtual-slam-with-turtlebot3)
 
 10. Use rosbash tools (rostopic, rosnode, etc.) to check that everything is indeed using ROS topics.
