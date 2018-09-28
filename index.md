@@ -6,4 +6,8 @@ Available materials:
 
 - [Lab1 instructions](docs/lab1/README.md)
 
+- [Turtlebot3 simulation](docs/turtlebot3_simulation.md)
+
+Others:
+
 - [ROS Robotic Programming eBook download](http://www.robotis.com/service/download.php?no=719)
