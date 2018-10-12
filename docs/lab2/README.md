@@ -44,7 +44,7 @@ mkdir tmp_turtle && cd tmp_turtle && wget https://guilhermelawless.github.io/int
     - Subscribe to the robot's [odometry](http://docs.ros.org/melodic/api/nav_msgs/html/msg/Odometry.html) (/odom) topic to know the current value read by the encoders, processed as a [pose](http://docs.ros.org/melodic/api/geometry_msgs/html/msg/Pose.html) since the startup of that node.
     - If you have trouble working with quaternions, you can easily transform to Euler angles with this [method](http://docs.ros.org/jade/api/tf/html/python/transformations.html#tf.transformations.euler_from_quaternion). Simply `import tf` in your python script and use it.
 
-6. Test the program in **4** in Gazebo.
+6. Test the program in **5** in Gazebo.
 
 7. Subscribe to the robot's [laser scan](http://docs.ros.org/api/sensor_msgs/html/msg/LaserScan.html) (/scan) topic and use it to avoid obstacles (stop and wait or go around it). Add an obstacle in Gazebo and test.
 
@@ -53,3 +53,5 @@ mkdir tmp_turtle && cd tmp_turtle && wget https://guilhermelawless.github.io/int
     - Use [tf2\_tools](http://wiki.ros.org/tf2_tools) for a visual into the tf tree of the robot. Currently there is only one transformation, **odom -> base_footprint**. 
     - Follow this [tutorial](http://wiki.ros.org/tf2/Tutorials/Writing%20a%20tf2%20listener%20%28Python%29) to setup a tf2 listener in python. Use it to get the current pose of the robot, instead of subscribing to odometry.
     - Note: The reason why we use frame transformations instead of raw odometry messages will become clear in the first mini-project.
+
+9. Test everything on the real robot.
