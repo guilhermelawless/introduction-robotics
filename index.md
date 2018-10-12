@@ -12,6 +12,4 @@ Available materials:
 
 Others:
 
-- [Setting up connection to your Turtlebot 3](docs/lab2/turtlebot3_extra_setup.md)
-
 - [ROS Robotic Programming eBook download](http://www.robotis.com/service/download.php?no=719)
