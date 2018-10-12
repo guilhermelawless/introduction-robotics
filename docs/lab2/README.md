@@ -8,13 +8,13 @@ The following instructions have been tested under Ubuntu 16.04 and ROS kinetic.
 
 If you have any questions, post a new [issue](https://github.com/guilhermelawless/introduction-robotics/issues).
 
-# Setup
+## Setup
 
 Follow the previous [guides](../../index.md) to get started. If at any point you are missing packages, see the comprehensive [Tutorial](http://emanual.robotis.com/docs/en/platform/turtlebot3/overview/) and [ROS Wiki](http://wiki.ros.org/turtlebot3).
 
 You can use the previous lab's [code](../lab1/pioneer_behavior.py) as a skeleton. You will need to change the topic names.
 
-# Real robot connection
+## Real robot connection
 
 The following script will install everything you need in ~/.bashrc . Feel free to cleanup that file of anything related to this course before you run it.
 
@@ -22,7 +22,7 @@ The following script will install everything you need in ~/.bashrc . Feel free t
 mkdir tmp_turtle && cd tmp_turtle && wget https://guilhermelawless.github.io/introduction-robotics/docs/lab2/turtlebot3_ros_setup.sh && bash turtlebot3_ros_setup.sh && cd .. && rm -rf tmp_turtle
 ```
 
-# Tasks
+## Tasks
 
 1. Teleoperate the robot (hint: `turtlebot3_teleop` package)
 
