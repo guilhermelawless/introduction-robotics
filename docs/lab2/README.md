@@ -26,7 +26,9 @@ mkdir tmp_turtle && cd tmp_turtle && wget https://guilhermelawless.github.io/int
 
 1. Teleoperate the robot (hint: `turtlebot3_teleop` package)
 
-2. Create a new ROS package in your workspace, called `turtlebot3_functionalities`. All your code should be messages, sources and nodes/scripts in this package.
+2. Create a new ROS package in your workspace, called `turtlebot3_functionalities`. All your code should be messages, sources and nodes/scripts in this package. Follow **both** of the following tutorials to learn how to create one.
+    - Tutorial for [creating ROS packages](http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
+    - Tutorial specific for [Python development](http://wiki.ros.org/rospy_tutorials/Tutorials/Makefile)
 
 3. Develop a program that will switch between 3 states: moving forward, moving backwards, rotating left.
     - It should switch when a new message is received on a ROS topic that your program subscribes to.
