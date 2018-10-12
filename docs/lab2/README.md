@@ -19,7 +19,7 @@ You can use the previous lab's [code](../lab1/pioneer_behavior.py) as a skeleton
 The following script will install everything you need in ~/.bashrc . Feel free to cleanup that file of anything related to this course before you run it.
 
 ```bash
-wget -nH --recursive --no-parent --reject "index.html" https://guilhermelawless.github.io/introduction-robotics/docs/lab1/ --cut-dirs=2 && cd lab2 && bash turtlebot3_ros_setup.sh && cd .. && rm -rf lab2
+mkdir tmp_turtle && cd tmp_turtle && wget https://guilhermelawless.github.io/introduction-robotics/docs/lab2/turtlebot3_ros_setup.sh && bash turtlebot3_ros_setup.sh && cd .. && rm -rf tmp_turtle
 ```
 
 # Tasks

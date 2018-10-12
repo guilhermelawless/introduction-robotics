@@ -1,5 +1,7 @@
 #!/bin/bash
 
+wget https://guilhermelawless.github.io/introduction-robotics/docs/lab2/bash_utils.sh && wget https://guilhermelawless.github.io/introduction-robotics/docs/lab2/update_bashrc.sh
+
 ROBOTS=(11 12 13 14)
 printf "\nWhich one is your turtlebot? Pick 1-4\n\n"
 select R in ${ROBOTS[@]}; do
