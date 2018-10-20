@@ -10,6 +10,8 @@ Available materials:
 
 - [Lab2 instructions](docs/lab2/README.md)
 
+- [Mini-project 1 Dataset](https://github.com/guilhermelawless/turtlebot3_datasets)
+
 Others:
 
 - [ROS Robotic Programming eBook download](http://www.robotis.com/service/download.php?no=719)
